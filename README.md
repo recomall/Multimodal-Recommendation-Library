@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/Jinfeng-Xu/Multimodal-Recommendation-Librarys"><img width="300px" height="auto" src="images/logo.png"></a>
+  <a href="https://github.com/Jinfeng-Xu/Multimodal-Recommendation-Library"><img width="300px" height="auto" src="images/logo.png"></a>
 </div>
 
 # MRLib: Multimodal Recommendation Library
