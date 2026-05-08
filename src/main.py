@@ -23,7 +23,7 @@ if __name__ == '__main__':
     args, _ = parser.parse_known_args()
 
     config_dict = {
-        'gpu_id': arg.gpu_id,
+        'gpu_id': args.gpu_id,
         'enable_visualization': True,  # Enable visualization by default
     }
    
