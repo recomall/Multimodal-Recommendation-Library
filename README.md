@@ -9,6 +9,7 @@
 > **中文文档:** [🇨🇳 中文版](README_CN.md)
 
 ## 🎉 News
+- [2026.05]🎯[Update]: We have added MSCA (accepted at WWW 2026) to MRLib, thanks to [@recomall](https://github.com/recomall).
 - [2026.04]🎯[Update]: We release the MRLib as a comprehensive benchmark and code base for mutlimodal recommendations.
 ---
 

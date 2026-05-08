@@ -3,7 +3,6 @@
 r"""
 Multi-view Semantic Contrastive Alignment for Multimodal Recommendation, WWW, 2026
 """
-
 import os
 import numpy as np
 import scipy.sparse as sp
