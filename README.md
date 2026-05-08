@@ -172,9 +172,35 @@ MRS/
 
 ---
 
-## 📊 Performance Benchmarks
+## 📊 Performance Benchmarks ([Log](docs/log))
 
-TODO
+### Baby dataset
+
+| Model                                | Recall@10 | Recall@20 | NDCG@10 | NDCG@20 | Training Time | Inference Time |
+| ------------------------------------ | --------- | --------- | ------- | ------- | ------------- | -------------- |
+| [VBPR](docs/log/VBPR/baby)           | 0.0372    | 0.0592    | 0.0199  | 0.0256  | 0.36s/epoch   | 0.63s/epoch    |
+| [MMGCN]((docs/log/MMGCN/baby))       | 0.0414    | 0.0682    | 0.0215  | 0.0284  | 2.18s/epoch   | 0.62s/epoch    |
+| [GRCN]((docs/log/GRCN/baby))         | 0.0493    | 0.0790    | 0.0258  | 0.0334  | 1.47s/epoch   | 0.58s/epoch    |
+| [LATTICE]((docs/log/LATTICE/baby))   | 0.0584    | 0.0893    | 0.0314  | 0.0393  | 0.72s/epoch   | 0.59s/epoch    |
+| [DualGNN]((docs/log/DualGNN/baby))   | 0.0367    | 0.0592    | 0.0192  | 0.0250  | 4.43s/epoch   | 0.59s/epoch    |
+| [SLMRec]((docs/log/SLMRec/baby))     | 0.0518    | 0.0774    | 0.0287  | 0.0353  | 2.33s/epoch   | 0.60s/epoch    |
+| [BM3]((docs/log/BM3/baby))           | 0.0536    | 0.0856    | 0.0289  | 0.0371  | 0.61s/epoch   | 0.58s/epoch    |
+| [MMSSL]((docs/log/MMSSL/baby))       | 0.0559    | 0.0889    | 0.0306  | 0.0391  | 4.64s/epoch   | 0.61s/epoch    |
+| [FREEDOM]((docs/log/FREEDOM/baby))   | 0.0622    | 0.0977    | 0.0337  | 0.0427  | 0.77s/epoch   | 0.59s/epoch    |
+| [MGCN]((docs/log/MGCN/baby))         | 0.0629    | 0.0964    | 0.0346  | 0.0433  | 1.15s/epoch   | 0.60s/epoch    |
+| [DRAGON]((docs/log/DRAGON/baby))     | 0.0637    | 0.1004    | 0.0351  | 0.0445  | 4.48s/epoch   | 0.67s/epoch    |
+| [LGMRec]((docs/log/LGMRec/baby))     | 0.0652    | 0.1031    | 0.0353  | 0.0450  | 1.47s/epoch   | 0.60s/epoch    |
+| [DiffMM]((docs/log/DiffMM/baby))     | 0.0578    | 0.0900    | 0.0314  | 0.0397  | 0.91s/epoch   | 0.60s/epoch    |
+| [DAMRS]((docs/log/DAMRS/baby))       | 0.0578    | 0.0924    | 0.0316  | 0.0406  | 2.56s/epoch   | 0.58s/epoch    |
+| [MENTOR]((docs/log/MENTOR/baby))     | 🥈0.0670   | 🥉0.1048   | 🥈0.0362 | 🥈0.0459 | 5.70s/epoch   | 0.59s/epoch    |
+| [PGL]((docs/log/PGL/baby))           | 0.0610    | 0.0960    | 0.0325  | 0.0415  | 0.88s/epoch   | 0.59s/epoch    |
+| [SMORE]((docs/log/SMORE/baby))       | 🥇0.0678   | 0.1039    | 🥇0.0368 | 🥇0.0460 | 1.39s/epoch   | 0.67s/epoch    |
+| [COHESION]((docs/log/COHESION/baby)) | 🥈0.0670   | 🥈0.1050   | 0.0350  | 0.0447  | 4.53s/epoch   | 0.59s/epoch    |
+| [SSR]((docs/log/SSR/baby))           | 🥉0.0665   | 🥇0.1065   | 0.0357  | 🥇0.0460 | 9.80s/epoch   | 0.81s/epoch    |
+| [HPMRec]((docs/log/HPMRec/baby))     | 0.0660    | 0.1024    | 🥉0.0360 | 🥉0.0453 | 6.15s/epoch   | 2.07s/epoch    |
+| [LOBSTER]((docs/log/LOBSTER/baby))   | 0.0551    | 0.0861    | 0.0296  | 0.0376  | 1.39s/epoch   | 0.61s/epoch    |
+
+🔜 The results for the other datasets are comming soon
 
 ---
 
