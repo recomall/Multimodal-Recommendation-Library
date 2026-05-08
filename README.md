@@ -67,6 +67,7 @@
 | 19 | **SSR** | Structured Spectral Reasoning for Frequency-Adaptive Multimodal Recommendation | NeurIPS | 2025 | [link](https://arxiv.org/pdf/2512.01372) |
 | 20 | **HPMRec** | Hypercomplex Prompt-aware Multimodal Recommendation | CIKM | 2025 | [link](https://arxiv.org/pdf/2508.10753) |
 | 21 | **LOBSTER** | LOBSTER: Bilateral global semantic enhancement for multimedia recommendation | Information Fusion | 2026 | [link](https://www.sciencedirect.com/science/article/pii/S1566253525008401) |
+| 22 | **MSCA** | Multi-view Semantic Contrastive Alignment for Multimodal Recommendation | WWW | 2026 | [link](https://dl.acm.org/doi/abs/10.1145/3774904.3792192) |
 
 *Models sorted by publication year. Table continuously updated with latest research.*
 
